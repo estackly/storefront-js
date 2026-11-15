@@ -1,0 +1,24 @@
+{
+  "name": "@estackly/storefront",
+  "version": "0.1.0",
+  "description": "Typed client for the Estackly Storefront API: catalogue, carts, checkout links, customer accounts and webhooks.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "default": "./dist/index.js" }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "sideEffects": false,
+  "engines": { "node": ">=18" },
+  "keywords": ["estackly", "ecommerce", "storefront", "headless", "api", "sdk"],
+  "homepage": "https://developers.estackly.com",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test test/*.test.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0"
+  }
+}
