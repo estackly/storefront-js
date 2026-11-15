@@ -7,13 +7,36 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
-    ".": { "types": "./dist/index.d.ts", "default": "./dist/index.js" }
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
   },
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "sideEffects": false,
-  "engines": { "node": ">=18" },
-  "keywords": ["estackly", "ecommerce", "storefront", "headless", "api", "sdk"],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "estackly",
+    "ecommerce",
+    "storefront",
+    "headless",
+    "api",
+    "sdk"
+  ],
   "homepage": "https://developers.estackly.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estackly/storefront-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/estackly/storefront-js/issues"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "npm run build && node --test test/*.test.mjs"
