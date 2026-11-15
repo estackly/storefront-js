@@ -3,7 +3,7 @@
 A small, typed client for the [Estackly Storefront API](https://developers.estackly.com): catalogue, carts, checkout links, customer accounts and webhooks. No dependencies; works in browsers, Node 18+, Deno, Bun and edge runtimes.
 
 ```sh
-npm install https://developers.estackly.com/starters/estackly-storefront-0.1.0.tgz
+npm install @estackly/storefront
 ```
 
 The package installs under its own name, so imports stay `@estackly/storefront`.
