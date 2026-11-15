@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Typed client for the Estackly Storefront API: catalogue, carts, checkout links, customer accounts and webhooks.",
   "license": "MIT",
+  "author": "Estackly <care@estackly.com> (https://estackly.com)",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
